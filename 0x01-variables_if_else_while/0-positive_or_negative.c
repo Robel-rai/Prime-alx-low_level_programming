@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: takes a random number n 
- * then displays if it is Posetive, Negative or Zero
+ * Description: takes a random number n then displays if it is Posetive, Negative or Zero
  * Returns : 0
 */
 int main(void)
@@ -14,7 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-		if(n > 0)
+		if (n > 0)
 			printf("%i is positive\n", n);
 		else if (n == 0)
 			printf("%i is zero\n", n);
