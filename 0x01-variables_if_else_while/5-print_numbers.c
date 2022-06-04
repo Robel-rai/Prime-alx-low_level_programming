@@ -12,8 +12,9 @@ int main(void)
 
 	for (x = 1; x < 10; ++x)
 	{
-		printf(x);
+		char a = x + '0';
+		putchar(a);
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
