@@ -10,11 +10,12 @@ int main(void)
 {
 	char x;
 
-	for (x= 'a'; x <= 'z'; ++x)
+	for (x = 'a'; x <= 'z'; ++x)
 	{
 		if(x != 'z')
-			putchar(tolower(x));
+			putchar(x);
 		else if(x == 'z')
+			putchar(x);
 			putchar("\n");
 	}
 	return (0);
