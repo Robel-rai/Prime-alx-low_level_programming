@@ -12,12 +12,8 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; ++x)
 	{
-		if(x != 'z'){
-			putchar(x);
-		}else{
-			putchar(x);
-			putchar('\n');
-		}
+		putchar(x);
 	}
+	putchar('\n');
 	return (0);
 }
