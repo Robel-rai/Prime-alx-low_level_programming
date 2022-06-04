@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: takes a random number n then displays 
+ * Description: takes a random number n then displays
  * and if it is Posetive, Negative or Zero
  * Return: 0
 */
