@@ -14,9 +14,9 @@ int main(void)
 	{
 		if(x != 'z')
 			putchar(x);
-		else if(x == 'z')
+		else
 			putchar(x);
-			putchar("\n");
+			putchar('\n');
 	}
 	return (0);
 }
