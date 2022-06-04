@@ -1,15 +1,18 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
  * main - main body
  * Description: Prints from A to Z in lower case
  * Return: 0
  */
+
 int main(void)
 {
-	for (int x= 'A'; x <= 'Z'; x++)
+	char x;
+
+	for (x= 'a'; x <= 'z'; ++x)
 	{
-		if(x != 'Z')
+		if(x != 'z')
 			putchar(tolower(x));
 		else if(x == 'z')
 			putchar("\n");
