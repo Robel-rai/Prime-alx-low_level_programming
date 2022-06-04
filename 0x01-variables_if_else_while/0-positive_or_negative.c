@@ -4,7 +4,9 @@
 /* more headers goes there */
 
 /**
- * Header 
+ * main-main block
+ * Description: takes a random number n 
+ * then displays if it is Posetive, Negative or Zero
  * Returns 0;
  * */
 int main(void)
@@ -22,7 +24,7 @@ int main(void)
 			printf("%i is zero\n",n);
 		}else 
 		{
-			printf("%i is  negative\n",n);
+			printf("%i is negative\n",n);
 		}
 	return (0);
 }
