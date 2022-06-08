@@ -3,7 +3,7 @@
 /**
  * print_last_digit - prints the last digit
  * Description: Tells the last digit of our function
- * @b - b is an integr
+ * @b: b is an integr
  * Return: 0
  */
 
