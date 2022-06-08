@@ -5,7 +5,7 @@
  * Description: writes the alplabet in lower case from a to z
  * Return: 0
  */
-int print_alphabet;
+
 int main()
 {
 	print_alphabet();
