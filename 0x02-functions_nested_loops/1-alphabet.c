@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
-/*
- * main - prints the code
- * Description: writes the alplabet in lower case from a to z
- * Return: 0
+/**
+ * print_alphabet - print the alphabet
+ * Description: a function that is going to print the alphabet 
+ * Return: void
  */
 
-int main()
+void print_alphabet(void)
 {
-	print_alphabet();
-	putchar('\n');
-	return (0);
-}
+	char le;
 
-int print_alphabet(){
-	char x;
-	for (x = 'a';x <= 'z';++x)
+	for (le = 'a';le <= 'z'; ++le)
 	{
 		putchar(x);
 	}
+	putchar('\n');
 }
+		   	
