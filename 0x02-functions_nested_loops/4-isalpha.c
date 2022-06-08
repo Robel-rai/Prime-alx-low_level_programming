@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - check for lower case
+ * _isalpha - check for lower case
  * Description: Checkes if an input is lower case of upper case
  * @c: c is an ascii character
  * Return: 0
