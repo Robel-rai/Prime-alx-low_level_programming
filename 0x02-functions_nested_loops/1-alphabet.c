@@ -1,10 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_alphabet - print the alphabet
- * Description: a function that is going to print the alphabet 
- * Return: void
+ * main - print alphabet
+ * Description: prints the alpha bet
+ * Return: 0
  */
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
 
 void print_alphabet(void)
 {
