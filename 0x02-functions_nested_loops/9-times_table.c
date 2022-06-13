@@ -31,7 +31,7 @@ void times_table(void)
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
 			}
-			else if ((product < 10) && (y != 0))
+			else if ((mul < 10) && (y != 0))
 			{
 				_putchar(' ');
 				_putchar((mul % 10) + '0');
