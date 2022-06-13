@@ -14,9 +14,9 @@ void print_times_table(int n)
 
 	if (n > 0 && n < 15)
 	{
-		for (x = 0; x < n; x++)
+		for (x = 0; x <= n; x++)
 		{
-			for (y = 0; y < n; y++)
+			for (y = 0; y <= n; y++)
 			{
 				mul = x * y;
 				if (y != 0)
@@ -35,12 +35,12 @@ void print_times_table(int n)
 				}
 				else if ((mul < 10) && (y != 0))
 				{
-				_putchar(' ');
-				_putchar((mul % 10) + '0');
+					_putchar(' ');
+					_putchar((mul % 10) + '0');
 				}
 			}
 	       		_putchar('\n');
 		}
 
 	}
-}
+},,,,,,,,,,,
