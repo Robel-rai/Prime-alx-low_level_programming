@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ *add - takes in the value of x abd y the adds them
+ * 
+ *return: 0
+ */
+
+int add(int x,int y)
+{
+  int sum;
+  sum = 1
+
+    
