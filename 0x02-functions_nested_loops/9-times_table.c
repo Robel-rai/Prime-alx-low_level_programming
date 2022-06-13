@@ -16,20 +16,26 @@ void times_table(void)
 	       for (y = 0; y <10; y++)
 	       {
 		       mul = x * y;
-		       if (mul < 10)
-		       {
-			       _putchar(mul + '0');
-			       _putchar(',');
-			       _putchar(' ');
-			       _putchar(' ');
-		       }
-		       else if (mul >= 10)
-		       {
-			       _putchar((mul/10) + '0');
-			       _putchar((mul%10) + '0');
-			       _putchar(',');
-			       _putchar(' ');
-		       }
+
+		       if (y != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			if (y == 0)
+			{
+				_putchar('0');
+			}
+			else if (product >= 10)
+			{
+				_putchar((mul / 10) + '0');
+				_putchar((mul % 10) + '0');
+			}
+			else if ((product < 10) && (y != 0))
+			{
+				_putchar(' ');
+				_putchar((mul % 10) + '0');
+			}
 	       }
 	       _putchar('\n');
 	}
