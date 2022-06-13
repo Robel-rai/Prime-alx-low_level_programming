@@ -23,7 +23,7 @@ void time_table(void)
 			       _putchar(' ');
 			       _putchar(' ');
 		       }
-		       ele if (mul >= 10)
+		       else if (mul >= 10)
 		       {
 			       _putchar(mul + '0');
 			       _putchar(',');
