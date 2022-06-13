@@ -16,7 +16,7 @@ void times_table(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-		       	mul = x * y;
+			mul = x * y;
 			if (y != 0)
 			{
 				_putchar(',');
