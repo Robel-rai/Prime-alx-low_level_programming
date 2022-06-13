@@ -14,10 +14,10 @@ void times_table(void)
 
 	for (x = 0; x < 10; x++)
 	{
-	       for (y = 0; y < 10; y++)
-	       {
-		       mul = x * y;
-		       if (y != 0)
+		for (y = 0; y < 10; y++)
+		{
+		       	mul = x * y;
+			if (y != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -36,7 +36,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar((mul % 10) + '0');
 			}
-	       }
+		}
 	       _putchar('\n');
 	}
 }
