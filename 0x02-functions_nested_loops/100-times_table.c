@@ -12,7 +12,7 @@ void print_times_table(int n)
 	int y;
 	int mul;
 
-	if (n < 0 && n > 15)
+	if (n > 0 && n < 15)
 	{
 		for (x = 0; x < n; x++)
 		{
@@ -20,27 +20,27 @@ void print_times_table(int n)
 			{
 				mul = x * y;
 				if (y != 0)
-			{
-				_putchar(',');
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				if (y == 0)
+				{
+					_putchar('0');
+				}
+				else if (mul >= 10)
+				{
+					_putchar((mul / 10) + '0');
+					_putchar((mul % 10) + '0');
+				}
+				else if ((mul < 10) && (y != 0))
+				{
 				_putchar(' ');
-			}
-			if (y == 0)
-			{
-				_putchar('0');
-			}
-			else if (mul >= 10)
-			{
-				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
+				}
 			}
-			else if ((mul < 10) && (y != 0))
-			{
-				_putchar(' ');
-				_putchar((mul % 10) + '0');
-			}
+	       		_putchar('\n');
 		}
-	       _putchar('\n');
-	}
 
 	}
 }
