@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table: prints out the time able of 9*9
+ * times_table - prints out the time able of 9*9
  *
  * return:
  */
