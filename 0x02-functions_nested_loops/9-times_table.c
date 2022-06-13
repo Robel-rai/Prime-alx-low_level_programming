@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * time_table: prints out the time able of 9*9
+ * times_table: prints out the time able of 9*9
  *
  * return:
  */
 
-void time_table(void)
+void times_table(void)
 {
 	int x;
 	int y;
