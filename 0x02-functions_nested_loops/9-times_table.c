@@ -12,11 +12,11 @@ void times_table(void)
 	int y;
 	int mul;
 
-	for (x = 0; x < 10; x++){
-	       for (y = 0; y <10; y++)
+	for (x = 0; x < 10; x++)
+	{
+	       for (y = 0; y < 10; y++)
 	       {
 		       mul = x * y;
-
 		       if (y != 0)
 			{
 				_putchar(',');
