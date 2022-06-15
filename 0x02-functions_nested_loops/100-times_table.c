@@ -36,6 +36,7 @@ void print_times_table(int n)
 				else if ((mul < 10) && (y != 0))
 				{
 					_putchar(' ');
+					_putchar(' ');
 					_putchar((mul % 10) + '0');
 				}
 			}
