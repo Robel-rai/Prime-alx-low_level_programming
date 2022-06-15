@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - computes the value of 3 and 5 multiples if 
+ * main - computes the value of 3 and 5 multiples if
  * Description: computers the valuse of 3 and 5 multiples and sum the numbers;
  * Return: always 0
  */
 
 int main(void)
 {
-	unsigned long int sum3 ,sum5, sum;
+	unsigned long int sum3, sum5, sum;
 	int i;
 
 	sum3 = 0;
