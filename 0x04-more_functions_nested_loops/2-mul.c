@@ -2,8 +2,8 @@
 
 /**
  * mul - multiplication
- * @
- * @
+ * @a: integer
+ * @b: integer
  * Return - 0 or 1
  */
 
