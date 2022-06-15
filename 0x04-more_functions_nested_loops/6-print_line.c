@@ -2,7 +2,7 @@
 
 /**
  * print_line - print a line depending on the given n value
- *
+ * @n : is an integer
  * Return: noting
  */
 void print_line(int n)
@@ -13,5 +13,5 @@ void print_line(int n)
 	{
 		_putchar('_');
 	}
-		_putchar('\n');
+	_putchar('\n');
 }	
