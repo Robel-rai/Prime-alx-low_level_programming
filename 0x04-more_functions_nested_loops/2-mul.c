@@ -4,7 +4,6 @@
  * mul - multiplication
  * @a: integer
  * @b: integer
- *
  * Return: product 
  */
 
