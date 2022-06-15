@@ -1,55 +1,54 @@
 #include "main.h"
 
 /**
- * times_table - prints out the time able of 9*9
+ * print_times_table - prints the times table
+ * @n: integer for which the times table will be printed
  *
- * return:
+ * Description: prints the times table
+ *
+ * Return: void
  */
 
 void print_times_table(int n)
 {
-	int x;
-	int y;
-	int mul;
+	int row, column, product;
 
-	if (n > 0 && n < 15)
+	if (n >= 0 && n < 15)
 	{
-		for (x = 0; x <= n; x++)
+		for (row = 0; row <= n; row++)
 		{
-			for (y = 0; y <= n; y++)
+			for (column = 0; column <= n; column++)
 			{
-				mul = x * y;
-				if (y != 0)
+				product = row * column;
+
+				if (column == 0)
+					_putchar('0');
+				else if (product < 10)
 				{
 					_putchar(',');
 					_putchar(' ');
-				}
-				if (y == 0)
-				{
-					_putchar('0');
-				}
-				else if (mul >= 10)
-				{
-					_putchar((mul / 10) + '0');
-					_putchar((mul % 10) + '0');
-				}
-				else if ((mul < 10) && (y != 0))
-				{
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((mul % 10) + '0');
+					_putchar(product % 10 + '0');
 				}
-				else if((mul < 100) && (y != 0))
+				else if (product >= 10 && product < 100)
 				{
+					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((mul % 10) + '0');
-					_putchar((mul % 100) + '0');
+					_putchar((product / 10) % 10 + '0');
+					_putchar(product % 10 + '0');
 				}
-					
+				else if (product > 99 && product < 1000)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(product / 100 + '0');
+					_putchar((product / 10) % 10 + '0');
+					_putchar(product % 10 + '0');
+				}
 			}
-	       		_putchar('\n');
+			_putchar('\n');
 		}
-
 	}
 }
